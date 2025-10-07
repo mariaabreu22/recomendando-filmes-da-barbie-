@@ -1,0 +1,54 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background: black;
+    margin: 0px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+
+header {
+    border-bottom: solid 2px rgb(154, 42, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: #fbff00;
+}
+
+.melhor-filme {
+    background: red;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-inicial {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.filmes {
+    background: rgb(145, 209, 225);
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: black;
+}
+
+.filmes-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+img {
+    height: 200px;
+}
